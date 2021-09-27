@@ -1,0 +1,9 @@
+add_executable(complex-unit-tests
+               Main.cpp
+               interface/InterfaceTest.cpp
+               )
+target_link_libraries(complex-unit-tests
+                      complex
+                      doctest
+                      flt
+                     )
